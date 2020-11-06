@@ -3,16 +3,21 @@ import random
 import sys
 import time
 import datetime
+import math
 
 pyautogui.FAILSAFE = False
 
+duration = int(input("How long would you like the script to run for (in minutes)?: "))
+duration_seconds = (duration * 60)
+duration_range = (math.ceil(duration_seconds / 300))
+
 while True:
     now = datetime.datetime.now()
-    print("ghosty started at: " + now.strftime("%H:%M:%S on %m-%d-%Y"))
+    print("\nghosty started at: " + now.strftime("%H:%M:%S on %m-%d-%Y"))
 
     # How many seconds after ghosty.py is ran should the script start
     time.sleep(10)
-    for i in range(0, 10):
+    for i in range(0, duration_range):
         pyautogui.moveTo(0, i * 5)
         print("\nCursor moved")
 
@@ -23,7 +28,6 @@ while True:
                 sys.stdout.flush()
                 time.sleep(1)
         # Sleep for 300 seconds (5 minutes) after each time the cursor is moved
-        # 300 seconds = 50 minutes of cursor movement before typing a message
         countdown(300)
 
     for i in range(0, 1):
