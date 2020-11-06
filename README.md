@@ -6,9 +6,11 @@ Too busy to work from home? Attend your online lecture? No problem! That's what 
 
 Start ghosty, sit back and enjoy while it takes on your responsibilities. 
 
-## Installation
+## Prerequisites
 
 [python3](https://www.python.org/download/releases/3.0/)
+
+[PyAutoGUI](https://pyautogui.readthedocs.io/en/latest/install.html)
 
 ## Usage
 
