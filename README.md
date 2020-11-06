@@ -12,6 +12,8 @@ Start ghosty, sit back and enjoy while it takes on your responsibilities.
 
 [PyAutoGUI](https://pyautogui.readthedocs.io/en/latest/install.html)
 
+```pip3 install pyautogui```
+
 ## Usage
 
 1. Enter the amount of time you'd like ghosty to take on your tasks
