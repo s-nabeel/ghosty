@@ -8,11 +8,11 @@ Start ghosty, sit back and enjoy while it takes on your responsibilities.
 
 ## Prerequisites
 
-[python3](https://www.python.org/download/releases/3.0/)
+* [python3](https://www.python.org/download/releases/3.0/)
 
-[PyAutoGUI](https://pyautogui.readthedocs.io/en/latest/install.html)
+* [PyAutoGUI](https://pyautogui.readthedocs.io/en/latest/install.html)
 
-```pip3 install pyautogui```
+    ```pip3 install pyautogui```
 
 ## Usage
 
